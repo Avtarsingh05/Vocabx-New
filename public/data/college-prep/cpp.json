@@ -1,0 +1,77 @@
+
+{
+  "words": [
+    { "word": "C++: Pointers", "meaning": "Variables that store memory addresses.", "example": "int* p = &x;", "antonym": "References" },
+    { "word": "C++: STL", "meaning": "Standard Template Library (Algorithms, Containers).", "example": "std::vector<int> v;", "antonym": "Custom Libs" },
+    { "word": "C++: Templates", "meaning": "Writing generic code for multiple data types.", "example": "template <typename T> void f() { ... }", "antonym": "Hard-coding" },
+    { "word": "C++: Classes", "meaning": "User-defined data types with methods and members.", "example": "class Person { ... };", "antonym": "Structs (C-style)" },
+    { "word": "C++: Namespaces", "meaning": "Organizing code to avoid name collisions.", "example": "using namespace std;", "antonym": "Global Scope" },
+    { "word": "C++: References", "meaning": "Alias for an existing variable.", "example": "int& ref = x;", "antonym": "Pointers" },
+    { "word": "C++: Constructors", "meaning": "Special methods called during object creation.", "example": "Person() { ... }", "antonym": "Destructors" },
+    { "word": "C++: Destructors", "meaning": "Methods called during object destruction (cleanup).", "example": "~Person() { ... }", "antonym": "Constructors" },
+    { "word": "C++: Function Overloading", "meaning": "Multiple functions with same name but different args.", "example": "void f(int); void f(double);", "antonym": "Overriding" },
+    { "word": "C++: Operator Overloading", "meaning": "Defining custom behavior for standard operators.", "example": "Point operator+(Point p);", "antonym": "Standard Math" },
+    { "word": "C++: Virtual Functions", "meaning": "Enabling runtime polymorphism via base pointers.", "example": "virtual void move();", "antonym": "Static Methods" },
+    { "word": "C++: Abstract Class", "meaning": "Class containing at least one pure virtual function.", "example": "virtual void f() = 0;", "antonym": "Concrete Class" },
+    { "word": "C++: Dynamic Memory", "meaning": "Allocating memory at runtime using 'new' and 'delete'.", "example": "int* arr = new int[5];", "antonym": "Stack Allocation" },
+    { "word": "C++: Smart Pointers", "meaning": "Managing pointer lifetime automatically (unique_ptr, shared_ptr).", "example": "std::unique_ptr<int> p = ...", "antonym": "Raw Pointers" },
+    { "word": "C++: Exceptions", "meaning": "Handling errors using try, throw, catch.", "example": "throw std::runtime_error('err');", "antonym": "Silent Error" },
+    { "word": "C++: Lambda Expressions", "meaning": "Inline anonymous functions.", "example": "[](int x) { return x * x; }", "antonym": "Named Function" },
+    { "word": "C++: Const Correctness", "meaning": "Ensuring variables/methods do not modify state.", "example": "void f() const { ... }", "antonym": "Mutable" },
+    { "word": "C++: Inline Functions", "meaning": "Expanding function code at call site for speed.", "example": "inline int add(int a, int b) { ... }", "antonym": "Standard Function" },
+    { "word": "C++: Friend Functions", "meaning": "Non-member functions with access to private members.", "example": "friend void log(User& u);", "antonym": "Public Methods" },
+    { "word": "C++: Type Casting", "meaning": "Converting one data type to another (static_cast, dynamic_cast).", "example": "static_cast<double>(int_val)", "antonym": "C-style Cast" }
+  ],
+  "quizzes": [
+    {
+      "question": "Which operator is used to access the address of a variable?",
+      "options": ["*", "&", "->", "."],
+      "correctAnswer": "&"
+    },
+    {
+      "question": "What is the correct syntax for a pointer to integer?",
+      "options": ["int* p;", "int& p;", "int p*;", "ptr int p;"],
+      "correctAnswer": "int* p;"
+    },
+    {
+      "question": "Which STL container is used for dynamic arrays?",
+      "options": ["list", "vector", "map", "set"],
+      "correctAnswer": "vector"
+    },
+    {
+      "question": "What does 'virtual' keyword do?",
+      "options": ["Speeds up code", "Enables runtime polymorphism", "Makes class static", "Hides variables"],
+      "correctAnswer": "Enables runtime polymorphism"
+    },
+    {
+      "question": "How do you free memory allocated with 'new'?",
+      "options": ["free()", "delete", "remove", "clear"],
+      "correctAnswer": "delete"
+    },
+    {
+      "question": "What is a pure virtual function?",
+      "options": ["Function with body", "Function set to 0", "Private function", "None of these"],
+      "correctAnswer": "Function set to 0"
+    },
+    {
+      "question": "Which operator is used to access members of a class through a pointer?",
+      "options": [".", "&", "->", "::"],
+      "correctAnswer": "->"
+    },
+    {
+      "question": "What is the scope resolution operator?",
+      "options": [".", "::", "->", ":"],
+      "correctAnswer": "::"
+    },
+    {
+      "question": "Which keyword is used to define a template?",
+      "options": ["generic", "template", "type", "auto"],
+      "correctAnswer": "template"
+    },
+    {
+      "question": "How do you declare a constant in C++?",
+      "options": ["const", "final", "static", "stable"],
+      "correctAnswer": "const"
+    }
+  ]
+}

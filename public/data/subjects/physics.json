@@ -1,0 +1,63 @@
+{
+  "grades": {
+    "9": {
+      "words": [
+        { "word": "Force", "meaning": "Push or pull on an object.", "example": "Push the box with force.", "antonym": "Rest" },
+        { "word": "Energy", "meaning": "Ability to do work.", "example": "Electricity is energy.", "antonym": "Inactivity" },
+        { "word": "Motion", "meaning": "Movement of objects.", "example": "Car is in motion.", "antonym": "Rest" },
+        { "word": "Speed", "meaning": "Distance covered per time.", "example": "Speed of car is 60 km/h.", "antonym": "Stillness" },
+        { "word": "Velocity", "meaning": "Speed with direction.", "example": "Wind velocity is high.", "antonym": "Stillness" },
+        { "word": "Acceleration", "meaning": "Rate of change of velocity.", "example": "Car accelerates fast.", "antonym": "Constant speed" },
+        { "word": "Gravity", "meaning": "Force pulling objects to Earth.", "example": "Apple falls due to gravity.", "antonym": "Repulsion" },
+        { "word": "Mass", "meaning": "Amount of matter.", "example": "Object has mass.", "antonym": "Vacuum" },
+        { "word": "Weight", "meaning": "Force due to gravity.", "example": "Weight depends on gravity.", "antonym": "Masslessness" },
+        { "word": "Friction", "meaning": "Force opposing motion.", "example": "Friction slows motion.", "antonym": "Smoothness" },
+
+        { "word": "Work", "meaning": "Force × distance.", "example": "Work is done when force moves object.", "antonym": "Rest" },
+        { "word": "Power", "meaning": "Work done per time.", "example": "Power of engine is high.", "antonym": "Weakness" },
+        { "word": "Heat", "meaning": "Energy transfer due to temperature.", "example": "Heat flows from hot to cold.", "antonym": "Cold" },
+        { "word": "Temperature", "meaning": "Measure of heat.", "example": "Temperature is 30°C.", "antonym": "Coldness" },
+        { "word": "Light", "meaning": "Form of energy we can see.", "example": "Sun gives light.", "antonym": "Darkness" },
+        { "word": "Sound", "meaning": "Energy produced by vibrations.", "example": "Bell produces sound.", "antonym": "Silence" },
+        { "word": "Wave", "meaning": "Energy transfer without matter movement.", "example": "Sound travels in waves.", "antonym": "Static" },
+        { "word": "Frequency", "meaning": "Number of waves per second.", "example": "High frequency sound.", "antonym": "Low frequency" },
+        { "word": "Wavelength", "meaning": "Distance between waves.", "example": "Light has wavelength.", "antonym": "Point" },
+        { "word": "Reflection", "meaning": "Bouncing of light.", "example": "Mirror reflects light.", "antonym": "Absorption" },
+
+        { "word": "Refraction", "meaning": "Bending of light.", "example": "Light bends in water.", "antonym": "Straight path" },
+        { "word": "Lens", "meaning": "Glass that bends light.", "example": "Use lens in camera.", "antonym": "Mirror" },
+        { "word": "Mirror", "meaning": "Reflective surface.", "example": "Mirror shows image.", "antonym": "Opaque" },
+        { "word": "Circuit", "meaning": "Closed path for electricity.", "example": "Bulb glows in circuit.", "antonym": "Open circuit" },
+        { "word": "Current", "meaning": "Flow of charge.", "example": "Electric current flows.", "antonym": "No flow" },
+        { "word": "Voltage", "meaning": "Electric pressure.", "example": "Battery has voltage.", "antonym": "Zero" },
+        { "word": "Resistance", "meaning": "Opposition to current.", "example": "Wire has resistance.", "antonym": "Conduction" },
+        { "word": "Magnet", "meaning": "Object that attracts iron.", "example": "Magnet attracts nails.", "antonym": "Non-magnetic" },
+        { "word": "Field", "meaning": "Area of force influence.", "example": "Magnetic field exists.", "antonym": "Vacuum" },
+        { "word": "Charge", "meaning": "Electric property of matter.", "example": "Electron has charge.", "antonym": "Neutral" },
+
+        { "word": "Electron", "meaning": "Negatively charged particle.", "example": "Electron moves in circuit.", "antonym": "Proton" },
+        { "word": "Proton", "meaning": "Positively charged particle.", "example": "Proton in nucleus.", "antonym": "Electron" },
+        { "word": "Neutron", "meaning": "Neutral particle.", "example": "Neutron has no charge.", "antonym": "Proton" },
+        { "word": "Atom", "meaning": "Smallest unit of matter.", "example": "Atoms form matter.", "antonym": "Molecule" },
+        { "word": "Molecule", "meaning": "Group of atoms.", "example": "Water molecule.", "antonym": "Atom" },
+        { "word": "Density", "meaning": "Mass per volume.", "example": "Iron is dense.", "antonym": "Lightness" },
+        { "word": "Pressure", "meaning": "Force per area.", "example": "Pressure increases depth.", "antonym": "Vacuum" },
+        { "word": "Buoyancy", "meaning": "Upward force in fluid.", "example": "Boat floats.", "antonym": "Sinking" },
+        { "word": "Inertia", "meaning": "Resistance to change motion.", "example": "Object resists motion.", "antonym": "Movement" },
+        { "word": "Momentum", "meaning": "Mass × velocity.", "example": "Moving car has momentum.", "antonym": "Stillness" }
+      ],
+      "quizzes": [
+        { "question": "What pulls objects to Earth?", "options": ["Force", "Gravity", "Energy", "Motion"], "correctAnswer": "Gravity" },
+        { "question": "Speed is?", "options": ["Distance/time", "Force", "Energy", "Mass"], "correctAnswer": "Distance/time" },
+        { "question": "Unit of work?", "options": ["Joule", "Watt", "Newton", "Volt"], "correctAnswer": "Joule" },
+        { "question": "Light reflection happens in?", "options": ["Mirror", "Water", "Air", "Ground"], "correctAnswer": "Mirror" },
+        { "question": "Electric current is?", "options": ["Flow of charge", "Heat", "Force", "Mass"], "correctAnswer": "Flow of charge" },
+        { "question": "Sound travels as?", "options": ["Wave", "Solid", "Gas", "Liquid"], "correctAnswer": "Wave" },
+        { "question": "Resistance opposes?", "options": ["Current", "Heat", "Light", "Mass"], "correctAnswer": "Current" },
+        { "question": "Magnet attracts?", "options": ["Iron", "Plastic", "Wood", "Water"], "correctAnswer": "Iron" },
+        { "question": "Energy is?", "options": ["Ability to work", "Force", "Speed", "Mass"], "correctAnswer": "Ability to work" },
+        { "question": "Atom is?", "options": ["Smallest unit", "Big object", "Liquid", "Gas"], "correctAnswer": "Smallest unit" }
+      ]
+    }
+  }
+}

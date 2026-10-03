@@ -1,0 +1,27 @@
+{
+  "words": [
+    { "word": "Amor", "meaning": "Love", "example": "El amor es la fuerza más poderosa.", "antonym": "Odio" },
+    { "word": "Paz", "meaning": "Peace", "example": "Todos queremos vivir en paz.", "antonym": "Guerra" },
+    { "word": "Libertad", "meaning": "Freedom", "example": "La libertad no tiene precio.", "antonym": "Esclavitud" },
+    { "word": "Felicidad", "meaning": "Happiness", "example": "Busca tu propia felicidad.", "antonym": "Tristeza" },
+    { "word": "Trabajo", "meaning": "Work", "example": "El trabajo dignifica al hombre.", "antonym": "Ocio" },
+    { "word": "Amistad", "meaning": "Friendship", "example": "Una amistad verdadera dura siempre.", "antonym": "Enemistad" },
+    { "word": "Verdad", "meaning": "Truth", "example": "Dime siempre la verdad.", "antonym": "Mentira" },
+    { "word": "Justicia", "meaning": "Justice", "example": "La justicia debe ser para todos.", "antonym": "Injusticia" },
+    { "word": "Valiente", "meaning": "Brave", "example": "Fue un soldado muy valiente.", "antonym": "Cobarde" },
+    { "word": "Generoso", "meaning": "Generous", "example": "Es un hombre muy generoso.", "antonym": "Tacaño" },
+    { "word": "Inteligente", "meaning": "Intelligent", "example": "Ella es una niña muy inteligente.", "antonym": "Tonto" },
+    { "word": "Paciente", "meaning": "Patient", "example": "Debes ser paciente con los niños.", "antonym": "Impaciente" },
+    { "word": "Humilde", "meaning": "Humble", "example": "Es un líder muy humilde.", "antonym": "Arrogante" },
+    { "word": "Sincero", "meaning": "Sincere", "example": "Su comentario fue muy sincero.", "antonym": "Falso" },
+    { "word": "Respeto", "meaning": "Respect", "example": "El respeto es fundamental.", "antonym": "Falta de respeto" },
+    { "word": "Salud", "meaning": "Health", "example": "La salud es lo más importante.", "antonym": "Enfermedad" },
+    { "word": "Éxito", "meaning": "Success", "example": "Celebraron el éxito del proyecto.", "antonym": "Fracaso" },
+    { "word": "Riqueza", "meaning": "Wealth", "example": "La verdadera riqueza es el saber.", "antonym": "Pobreza" },
+    { "word": "Unión", "meaning": "Union", "example": "En la unión está la fuerza.", "antonym": "División" },
+    { "word": "Esperanza", "meaning": "Hope", "example": "Nunca pierdas la esperanza.", "antonym": "Desesperación" }
+  ],
+  "quizzes": [
+    { "question": "¿Cuál es el antónimo de 'Verdad'?", "options": ["Mentira", "Realidad", "Amor", "Paz"], "correctAnswer": "Mentira" }
+  ]
+}

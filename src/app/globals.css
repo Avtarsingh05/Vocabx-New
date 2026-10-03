@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 99%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 142 76% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217 91% 60%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 262 83% 58%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 142 76% 45%;
+    --radius: 2rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased overflow-x-hidden;
+    background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
+    background-attachment: fixed;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+}
+
+.neural-bloom {
+  position: fixed;
+  width: 40vw;
+  height: 40vw;
+  background: radial-gradient(circle, rgba(34, 197, 94, 0.08) 0%, transparent 70%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-xl border border-white/60 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.08)];
+  will-change: transform, opacity;
+}
+
+.premium-shadow {
+  @apply shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1),0_0_0_1px_rgba(255,255,255,0.4)];
+}
+
+.lingua-card {
+  @apply glass-card rounded-[2.5rem] p-6 transition-all relative overflow-hidden;
+  transform: translateZ(0);
+}
+
+.lingua-button {
+  @apply relative inline-flex items-center justify-center font-black rounded-[1.5rem] transition-all disabled:opacity-50 disabled:pointer-events-none uppercase tracking-wider overflow-hidden active:scale-95;
+  transform: translateZ(0);
+}
+
+.lingua-button-primary {
+  @apply bg-gradient-to-br from-[#22c55e] to-[#16a34a] text-white shadow-xl shadow-green-500/20 hover:shadow-green-500/40;
+}
+
+.lingua-button-secondary {
+  @apply bg-gradient-to-br from-[#3b82f6] to-[#2563eb] text-white shadow-xl shadow-blue-500/20;
+}
+
+.terminal-label {
+  @apply bg-zinc-900/95 backdrop-blur-md text-white px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.2em] flex items-center gap-2 border border-white/10 w-fit shadow-xl shadow-black/20;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+
+@keyframes slideUpFade {
+  from { opacity: 0; transform: translate(-50%, 20px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+.animate-slide-up-fade {
+  animation: slideUpFade 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.gpu-accelerated {
+  transform: translate3d(0,0,0);
+  will-change: transform, opacity;
+}
+
+/* Dashboard Premium Additions */
+.active-nav-glow {
+  box-shadow: 0 0 30px rgba(34, 197, 94, 0.3);
+}
+
+.text-contrast {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

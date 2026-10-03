@@ -1,0 +1,26 @@
+{
+  "words": [
+    { "word": "Semantic HTML", "meaning": "Using tags that convey meaning (e.g. <main>, <article>).", "example": "<header>Site Title</header>", "antonym": "Div-soup" },
+    { "word": "CSS Grid", "meaning": "Two-dimensional layout system for the web.", "example": "display: grid; grid-template-columns: 1fr 1fr;", "antonym": "Flexbox" },
+    { "word": "Flexbox", "meaning": "One-dimensional layout system for aligning items.", "example": "display: flex; justify-content: center;", "antonym": "Grid" },
+    { "word": "Box Model", "meaning": "The foundation of CSS layout: Content, Padding, Border, Margin.", "example": "box-sizing: border-box;", "antonym": "Inline model" },
+    { "word": "Media Queries", "meaning": "CSS techniques to adapt designs to different screen sizes.", "example": "@media (max-width: 600px) { ... }", "antonym": "Fixed layout" },
+    { "word": "CSS Variables", "meaning": "Custom properties that store specific values for reuse.", "example": "--primary-color: #ff0000;", "antonym": "Hardcoded values" },
+    { "word": "Z-Index", "meaning": "Specifying the stack order of an element.", "example": "z-index: 10;", "antonym": "Natural flow" },
+    { "word": "Transitions", "meaning": "Animating changes to CSS properties smoothly.", "example": "transition: all 0.3s ease;", "antonym": "Static styles" },
+    { "word": "Pseudo-classes", "meaning": "Special state selectors like :hover or :active.", "example": "button:hover { ... }", "antonym": "ID selectors" },
+    { "word": "SVG", "meaning": "Scalable Vector Graphics for resolution-independent icons/images.", "example": "<svg><circle ... /></svg>", "antonym": "PNG" }
+  ],
+  "quizzes": [
+    { "question": "Which tag is used for the main title of a page?", "options": ["h1", "title", "header", "main"], "correctAnswer": "h1" },
+    { "question": "What does CSS stand for?", "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Syntax", "Colorful Style System"], "correctAnswer": "Cascading Style Sheets" },
+    { "question": "Which property changes the background color?", "options": ["background-color", "color", "bgcolor", "fill"], "correctAnswer": "background-color" },
+    { "question": "Which value of display enables Flexbox?", "options": ["flex", "grid", "block", "inline-flex"], "correctAnswer": "flex" },
+    { "question": "What is the purpose of the 'alt' attribute in an image tag?", "options": ["Accessibility text", "Image source", "Image size", "Link target"], "correctAnswer": "Accessibility text" },
+    { "question": "Which CSS unit is relative to the font size of the element?", "options": ["em", "px", "rem", "%"], "correctAnswer": "em" },
+    { "question": "How do you select an element with ID 'header' in CSS?", "options": ["#header", ".header", "header", "*header"], "correctAnswer": "#header" },
+    { "question": "Which tag is used to create an unordered list?", "options": ["ul", "ol", "li", "list"], "correctAnswer": "ul" },
+    { "question": "What is the default value of the 'position' property?", "options": ["static", "relative", "absolute", "fixed"], "correctAnswer": "static" },
+    { "question": "Which property controls the text size?", "options": ["font-size", "text-size", "font-style", "size"], "correctAnswer": "font-size" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "words": [
+    { "word": "JSX", "meaning": "Syntax extension for JavaScript that looks like HTML.", "example": "const element = <h1>Hello</h1>;", "antonym": "JS.createElement" },
+    { "word": "Hooks", "meaning": "Functions that let you use state and lifecycle in functional components.", "example": "const [state, setState] = useState(0);", "antonym": "Class lifecycle" },
+    { "word": "Virtual DOM", "meaning": "In-memory representation of the real DOM.", "example": "React reconciles VDOM with DOM.", "antonym": "Real DOM" },
+    { "word": "Props", "meaning": "Inputs to a React component passed down from a parent.", "example": "<MyComp name='Joe' />", "antonym": "State" },
+    { "word": "State", "meaning": "Internal data managed by a component.", "example": "this.state = { count: 0 };", "antonym": "Props" },
+    { "word": "useEffect", "meaning": "Hook for performing side effects in functional components.", "example": "useEffect(() => { ... }, []);", "antonym": "Pure function" },
+    { "word": "Fragment", "meaning": "Grouping a list of children without adding extra nodes to the DOM.", "example": "<><Child /></>", "antonym": "div" },
+    { "word": "Context API", "meaning": "Way to share data without passing props through every level.", "example": "const ThemeContext = React.createContext('light');", "antonym": "Prop drilling" },
+    { "word": "Higher-Order Component", "meaning": "Function that takes a component and returns a new component.", "example": "withAuth(MyComponent)", "antonym": "Functional component" },
+    { "word": "Refs", "meaning": "Way to access DOM nodes or React elements created in the render method.", "example": "const myRef = useRef(null);", "antonym": "Managed state" }
+  ],
+  "quizzes": [
+    { "question": "What is the primary way to manage state in a functional component?", "options": ["useState", "this.state", "redux", "context"], "correctAnswer": "useState" },
+    { "question": "Which hook is used for side effects?", "options": ["useEffect", "useSideEffect", "useLifecycle", "useMemo"], "correctAnswer": "useEffect" },
+    { "question": "How do you pass data to a child component?", "options": ["Props", "State", "Context", "Globals"], "correctAnswer": "Props" },
+    { "question": "What is the purpose of React Fragments?", "options": ["Avoid extra DOM nodes", "Handle errors", "Speed up render", "Manage state"], "correctAnswer": "Avoid extra DOM nodes" },
+    { "question": "Which method is used to update state in functional components?", "options": ["setState from useState", "this.setState", "updateState", "dispatch"], "correctAnswer": "setState from useState" },
+    { "question": "What is 'Reconciliation' in React?", "options": ["Updating the DOM", "Comparing VDOMs", "Merging state", "Connecting to DB"], "correctAnswer": "Comparing VDOMs" },
+    { "question": "Which hook optimizes expensive calculations?", "options": ["useMemo", "useCallback", "useEffect", "useRef"], "correctAnswer": "useMemo" },
+    { "question": "What must be returned from a functional component?", "options": ["JSX", "String", "Object", "Null only"], "correctAnswer": "JSX" },
+    { "question": "Which attribute is used to provide unique identities to list items?", "options": ["key", "id", "ref", "index"], "correctAnswer": "key" },
+    { "question": "What is the children prop?", "options": ["Nested components", "Small components", "Legacy props", "Array of states"], "correctAnswer": "Nested components" }
+  ]
+}

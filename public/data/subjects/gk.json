@@ -1,0 +1,67 @@
+{
+  "grades": {
+    "6": {
+      "words": [
+        {"word":"Planet","meaning":"Body orbiting sun","example":"Earth is planet","antonym":"Star"},
+        {"word":"Ocean","meaning":"Large water body","example":"Pacific ocean","antonym":"Land"},
+        {"word":"Continent","meaning":"Large landmass","example":"Asia continent","antonym":"Ocean"},
+        {"word":"Capital","meaning":"Main city","example":"Delhi capital","antonym":"Village"},
+        {"word":"Currency","meaning":"Money system","example":"Rupee currency","antonym":"Barter"},
+        
+        {"word":"River","meaning":"Flowing water","example":"Ganga river","antonym":"Desert"},
+        {"word":"Mountain","meaning":"High land","example":"Everest mountain","antonym":"Plain"},
+        {"word":"Desert","meaning":"Dry land","example":"Sahara desert","antonym":"Forest"},
+        {"word":"Forest","meaning":"Dense trees","example":"Amazon forest","antonym":"Desert"},
+        {"word":"Island","meaning":"Land surrounded by water","example":"Sri Lanka","antonym":"Mainland"},
+
+        {"word":"Galaxy","meaning":"Group of stars","example":"Milky Way","antonym":"Planet"},
+        {"word":"Star","meaning":"Shining object","example":"Sun is star","antonym":"Planet"},
+        {"word":"Moon","meaning":"Earth satellite","example":"Moon night","antonym":"Sun"},
+        {"word":"Orbit","meaning":"Path around object","example":"Earth orbit","antonym":"Still"},
+        {"word":"Axis","meaning":"Imaginary line","example":"Earth axis","antonym":"Surface"},
+
+        {"word":"President","meaning":"Head of state","example":"India president","antonym":"Citizen"},
+        {"word":"Prime Minister","meaning":"Head of government","example":"PM India","antonym":"Public"},
+        {"word":"Election","meaning":"Voting process","example":"General election","antonym":"Selection"},
+        {"word":"Democracy","meaning":"Rule by people","example":"India democracy","antonym":"Dictatorship"},
+        {"word":"Law","meaning":"Rules of country","example":"Follow law","antonym":"Chaos"},
+
+        {"word":"History","meaning":"Study of past","example":"Ancient history","antonym":"Future"},
+        {"word":"Geography","meaning":"Study of earth","example":"Mountains","antonym":"Abstract"},
+        {"word":"Economy","meaning":"Money system","example":"Strong economy","antonym":"Poverty"},
+        {"word":"Culture","meaning":"Way of life","example":"Indian culture","antonym":"Chaos"},
+        {"word":"Religion","meaning":"Belief system","example":"Hindu religion","antonym":"Atheism"},
+
+        {"word":"Language","meaning":"Communication method","example":"English language","antonym":"Silence"},
+        {"word":"Nation","meaning":"Country","example":"India nation","antonym":"Region"},
+        {"word":"State","meaning":"Division of country","example":"Punjab state","antonym":"Country"},
+        {"word":"City","meaning":"Urban area","example":"Delhi city","antonym":"Village"},
+        {"word":"Village","meaning":"Rural area","example":"Small village","antonym":"City"},
+
+        {"word":"Trade","meaning":"Buying selling","example":"International trade","antonym":"Isolation"},
+        {"word":"Export","meaning":"Send goods","example":"India exports","antonym":"Import"},
+        {"word":"Import","meaning":"Bring goods","example":"Import oil","antonym":"Export"},
+        {"word":"Transport","meaning":"Movement system","example":"Road transport","antonym":"Static"},
+        {"word":"Communication","meaning":"Sharing info","example":"Mobile communication","antonym":"Silence"},
+
+        {"word":"Energy","meaning":"Power source","example":"Solar energy","antonym":"Weakness"},
+        {"word":"Resource","meaning":"Useful material","example":"Water resource","antonym":"Waste"},
+        {"word":"Population","meaning":"People count","example":"India population","antonym":"Vacuum"},
+        {"word":"Environment","meaning":"Surroundings","example":"Protect environment","antonym":"Pollution"},
+        {"word":"Pollution","meaning":"Dirty environment","example":"Air pollution","antonym":"Cleanliness"}
+      ],
+      "quizzes": [
+        {"question":"Largest ocean?","options":["Atlantic","Pacific","Indian","Arctic"],"correctAnswer":"Pacific"},
+        {"question":"Capital of India?","options":["Delhi","Mumbai","Chennai","Kolkata"],"correctAnswer":"Delhi"},
+        {"question":"Earth is?","options":["Star","Planet","Moon","Galaxy"],"correctAnswer":"Planet"},
+        {"question":"River example?","options":["Ganga","Sahara","Everest","Delhi"],"correctAnswer":"Ganga"},
+        {"question":"Democracy means?","options":["Rule by people","King","Army","Law"],"correctAnswer":"Rule by people"},
+        {"question":"Sun is?","options":["Planet","Star","Moon","Asteroid"],"correctAnswer":"Star"},
+        {"question":"Import means?","options":["Send","Bring","Sell","Buy"],"correctAnswer":"Bring"},
+        {"question":"Forest is?","options":["Dry","Trees","Water","Sand"],"correctAnswer":"Trees"},
+        {"question":"Moon is?","options":["Star","Satellite","Planet","Galaxy"],"correctAnswer":"Satellite"},
+        {"question":"Economy means?","options":["Money system","Water","Tree","Food"],"correctAnswer":"Money system"}
+      ]
+    }
+  }
+}

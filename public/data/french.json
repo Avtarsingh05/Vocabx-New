@@ -1,0 +1,27 @@
+{
+  "words": [
+    { "word": "Amour", "meaning": "Love", "example": "L'amour est aveugle.", "antonym": "Haine" },
+    { "word": "Paix", "meaning": "Peace", "example": "La paix soit avec vous.", "antonym": "Guerre" },
+    { "word": "Liberté", "meaning": "Freedom", "example": "La liberté est un droit.", "antonym": "Servitude" },
+    { "word": "Bonheur", "meaning": "Happiness", "example": "Le bonheur est dans les choses simples.", "antonym": "Malheur" },
+    { "word": "Travail", "meaning": "Work", "example": "Le travail est nécessaire.", "antonym": "Paresse" },
+    { "word": "Amitié", "meaning": "Friendship", "example": "L'amitié est précieuse.", "antonym": "Inimitié" },
+    { "word": "Vérité", "meaning": "Truth", "example": "La vérité finit par sortir.", "antonym": "Mensonge" },
+    { "word": "Justice", "meaning": "Justice", "example": "La justice est égale pour tous.", "antonym": "Injustice" },
+    { "word": "Courageux", "meaning": "Brave", "example": "Il est très courageux.", "antonym": "Lâche" },
+    { "word": "Généreux", "meaning": "Generous", "example": "Elle est très généreuse.", "antonym": "Avare" },
+    { "word": "Intelligent", "meaning": "Intelligent", "example": "C'est un élève intelligent.", "antonym": "Stupide" },
+    { "word": "Patient", "meaning": "Patient", "example": "Sois patient, ça va venir.", "antonym": "Impatient" },
+    { "word": "Humble", "meaning": "Humble", "example": "Il reste humble malgré son succès.", "antonym": "Orgueilleux" },
+    { "word": "Sincère", "meaning": "Sincere", "example": "Ses paroles sont sincères.", "antonym": "Hypocrite" },
+    { "word": "Respect", "meaning": "Respect", "example": "Le respect des aînés.", "antonym": "Mépris" },
+    { "word": "Santé", "meaning": "Health", "example": "La santé avant tout.", "antonym": "Maladie" },
+    { "word": "Succès", "meaning": "Success", "example": "Le succès demande des efforts.", "antonym": "Échec" },
+    { "word": "Richesse", "meaning": "Wealth", "example": "La richesse du cœur.", "antonym": "Pauvreté" },
+    { "word": "Espoir", "meaning": "Hope", "example": "Tant qu'il y a de la vie, il y a de l'espoir.", "antonym": "Désespoir" },
+    { "word": "Beauté", "meaning": "Beauty", "example": "La beauté est subjective.", "antonym": "Laideur" }
+  ],
+  "quizzes": [
+    { "question": "Quel est le contraire de 'Vérité' ?", "options": ["Mensonge", "Secret", "Rêve", "Histoire"], "correctAnswer": "Mensonge" }
+  ]
+}

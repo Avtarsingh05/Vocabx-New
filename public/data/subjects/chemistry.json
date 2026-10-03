@@ -1,0 +1,31 @@
+
+{
+  "grades": {
+    "1": {
+      "words": [
+        { "word": "Ice", "meaning": "Water that is frozen and hard.", "example": "Ice melts in the sun.", "antonym": "Steam" },
+        { "word": "Liquid", "meaning": "Something that flows like water.", "example": "Milk is a liquid.", "antonym": "Solid" },
+        { "word": "Solid", "meaning": "Something firm and stable in shape.", "example": "A rock is a solid.", "antonym": "Liquid" },
+        { "word": "Steam", "meaning": "Water as a gas when it is hot.", "example": "Steam rises from the kettle.", "antonym": "Ice" },
+        { "word": "Mix", "meaning": "To put things together.", "example": "Mix flour and water.", "antonym": "Separate" }
+      ],
+      "quizzes": [
+        { "question": "What is frozen water called?", "options": ["Juice", "Ice", "Oil", "Mud"], "correctAnswer": "Ice" },
+        { "question": "Is water a liquid or solid?", "options": ["Solid", "Liquid", "Gas", "Metal"], "correctAnswer": "Liquid" }
+      ]
+    },
+    "12": {
+      "words": [
+        { "word": "Electrolysis", "meaning": "Chemical decomposition produced by passing an electric current through a liquid.", "example": "Electrolysis of water produces hydrogen.", "antonym": "Synthesis" },
+        { "word": "Isomer", "meaning": "Compounds with the same formula but different arrangements.", "example": "Butane and isobutane are isomers.", "antonym": "Homologue" },
+        { "word": "Titration", "meaning": "A method to find the concentration of a substance in a solution.", "example": "Perform an acid-base titration.", "antonym": "Diffusion" },
+        { "word": "Enthalpy", "meaning": "A thermodynamic property equivalent to the total heat content.", "example": "Calculate the change in enthalpy.", "antonym": "Entropy" },
+        { "word": "Oxidation", "meaning": "The loss of electrons during a reaction.", "example": "Iron rusting is an oxidation process.", "antonym": "Reduction" }
+      ],
+      "quizzes": [
+        { "question": "What is the pH of a neutral solution?", "options": ["0", "7", "14", "1"], "correctAnswer": "7" },
+        { "question": "Which process is the gain of electrons?", "options": ["Oxidation", "Reduction", "Combustion", "Evaporation"], "correctAnswer": "Reduction" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "words": [
+    { "word": "लईका", "meaning": "Boy / Child", "example": "लईका खेलत बा।", "antonym": "लईकी" },
+    { "word": "लईकी", "meaning": "Girl", "example": "लईकी स्कूल जात बाड़ी।", "antonym": "लईका" },
+    { "word": "काहे", "meaning": "Why", "example": "रउआ काहे रोवत बानी?", "antonym": "ओहिला" },
+    { "word": "का", "meaning": "What", "example": "का हाल बा?", "antonym": "कुछ ना" },
+    { "word": "रउआ", "meaning": "You (Respectful)", "example": "रउआ कहाँ से आइल बानी?", "antonym": "हम" },
+    { "word": "हमनी", "meaning": "We", "example": "हमनी आज सिनेमा देखेब।", "antonym": "ओहनी" },
+    { "word": "नीक", "meaning": "Good / Well", "example": "ई खाना बहुत नीक बा।", "antonym": "बेकार" },
+    { "word": "नेवता", "meaning": "Invitation", "example": "शादी के नेवता मिलल बा।", "antonym": "मनाही" },
+    { "word": "भोजन", "meaning": "Food", "example": "भोजन बन गइल बा।", "antonym": "उपवास" },
+    { "word": "दुआर", "meaning": "Door / Entrance", "example": "दुआर पर के खड़ा बा?", "antonym": "आँगन" },
+    { "word": "झऊआ", "meaning": "Basket", "example": "झऊआ में फल रखल बा।", "antonym": "बोरा" },
+    { "word": "बतकुच्चन", "meaning": "Talkative", "example": "उ लईका बहुत बतकुच्चन बा।", "antonym": "चुपचाप" },
+    { "word": "बुझाईल", "meaning": "Understand / Realize", "example": "अब हमरा बात बुझाईल।", "antonym": "भुलैल" },
+    { "word": "अउरी", "meaning": "And / More", "example": "अउरी दूध चाहीं?", "antonym": "बस" },
+    { "word": "फेरु", "meaning": "Again", "example": "फेरु कब मिलब?", "antonym": "एकही बार" },
+    { "word": "मेहरारू", "meaning": "Woman / Wife", "example": "गाँव के मेहरारू लोग गीत गावत बा।", "antonym": "मरद" },
+    { "word": "मरद", "meaning": "Man / Husband", "example": "मरद लोग खेत में काम करत बा।", "antonym": "मेहरारू" },
+    { "word": "सभे", "meaning": "Everyone", "example": "सभे लोग खुश बाड़न।", "antonym": "कोई ना" },
+    { "word": "तनी", "meaning": "A little", "example": "तनी धीरे बोलीं।", "antonym": "ढेर" },
+    { "word": "गोर", "meaning": "Fair / White", "example": "ओकर रंग बहुत गोर बा।", "antonym": "करिया" }
+  ],
+  "quizzes": [
+    { "question": "Bhojpuri में 'Good' को क्या कहते हैं?", "options": ["खराब", "नीक", "का", "तनी"], "correctAnswer": "नीक" },
+    { "question": "शब्द 'लईका' का स्त्रीलिंग क्या है?", "options": ["मेहरारू", "मरद", "लईकी", "सभे"], "correctAnswer": "लईकी" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "words": [
+    { "word": "Variables", "meaning": "Named memory locations to store data.", "example": "x = 10", "antonym": "Constants" },
+    { "word": "List Comprehension", "meaning": "Concise way to create lists.", "example": "[x**2 for x in range(10)]", "antonym": "For-loop" },
+    { "word": "Decorators", "meaning": "Functions that modify the behavior of other functions.", "example": "@my_decorator\ndef func(): pass", "antonym": "Base function" },
+    { "word": "Generators", "meaning": "Iterators that yield values on the fly.", "example": "def my_gen(): yield 1", "antonym": "Static list" },
+    { "word": "Context Managers", "meaning": "Objects that manage resources using the 'with' statement.", "example": "with open('file.txt') as f:", "antonym": "Manual management" },
+    { "word": "Lambda Functions", "meaning": "Small, anonymous one-line functions.", "example": "add = lambda x, y: x + y", "antonym": "Defined functions" },
+    { "word": "Inheritance", "meaning": "Mechanism where a class acquires properties of another.", "example": "class Child(Parent): pass", "antonym": "Composition" },
+    { "word": "Docstrings", "meaning": "String literals used for documenting modules/classes.", "example": "\"\"\"This is a docstring\"\"\"", "antonym": "Comments" },
+    { "word": "Virtual Environments", "meaning": "Isolated Python environments for dependency management.", "example": "python -m venv myenv", "antonym": "System Python" },
+    { "word": "Type Hinting", "meaning": "Defining the expected data types of variables.", "example": "x: int = 5", "antonym": "Dynamic typing" }
+  ],
+  "quizzes": [
+    { "question": "Which keyword is used to define a function?", "options": ["def", "func", "function", "define"], "correctAnswer": "def" },
+    { "question": "What is the correct syntax for a list comprehension?", "options": ["[x for x in list]", "{x for x in list}", "(x for x in list)", "list(x for x in list)"], "correctAnswer": "[x for x in list]" },
+    { "question": "Which method adds an item to the end of a list?", "options": ["append()", "add()", "insert()", "extend()"], "correctAnswer": "append()" },
+    { "question": "What does 'PEP 8' refer to?", "options": ["Style guide", "Version number", "Package manager", "Database"], "correctAnswer": "Style guide" },
+    { "question": "Which of these is an immutable type?", "options": ["tuple", "list", "set", "dict"], "correctAnswer": "tuple" },
+    { "question": "How do you start a comments in Python?", "options": ["#", "//", "/*", "--"], "correctAnswer": "#" },
+    { "question": "What is the output of '2' + '2'?", "options": ["'22'", "4", "Error", "NaN"], "correctAnswer": "'22'" },
+    { "question": "Which keyword is used to handle exceptions?", "options": ["except", "catch", "handle", "throw"], "correctAnswer": "except" },
+    { "question": "What is the result of 10 // 3?", "options": ["3", "3.33", "4", "0"], "correctAnswer": "3" },
+    { "question": "Which operator is used for exponentiation?", "options": ["**", "^", "^^", "exp"], "correctAnswer": "**" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "grades": {
+    "1": {
+      "words": [
+        { "word": "Addition", "meaning": "Putting numbers together.", "example": "2 + 3 is addition.", "antonym": "Subtraction" },
+        { "word": "Subtraction", "meaning": "Taking one number away from another.", "example": "5 - 2 is subtraction.", "antonym": "Addition" },
+        { "word": "Number", "meaning": "A symbol used to count.", "example": "1, 2, 3 are numbers.", "antonym": "Letter" },
+        { "word": "Circle", "meaning": "A round shape.", "example": "A ball is a circle.", "antonym": "Square" },
+        { "word": "Square", "meaning": "A shape with four equal sides.", "example": "A tile is square.", "antonym": "Circle" }
+      ],
+      "quizzes": [
+        { "question": "What is 2 + 3?", "options": ["4", "5", "6", "3"], "correctAnswer": "5" },
+        { "question": "Which shape is round?", "options": ["Square", "Triangle", "Circle", "Rectangle"], "correctAnswer": "Circle" },
+        { "question": "What is 5 - 2?", "options": ["2", "3", "4", "5"], "correctAnswer": "3" }
+      ]
+    },
+    "5": {
+      "words": [
+        { "word": "Fraction", "meaning": "A part of a whole.", "example": "1/2 is a fraction.", "antonym": "Whole" },
+        { "word": "Decimal", "meaning": "A number with a point.", "example": "0.5 is a decimal.", "antonym": "Integer" },
+        { "word": "Multiply", "meaning": "To add a number repeatedly.", "example": "3 × 4 = 12.", "antonym": "Divide" },
+        { "word": "Divide", "meaning": "To split into equal parts.", "example": "12 ÷ 3 = 4.", "antonym": "Multiply" },
+        { "word": "Perimeter", "meaning": "The boundary of a shape.", "example": "Find the perimeter of a square.", "antonym": "Area" }
+      ],
+      "quizzes": [
+        { "question": "What is 1/2?", "options": ["Whole", "Fraction", "Decimal", "Integer"], "correctAnswer": "Fraction" },
+        { "question": "What is 12 ÷ 3?", "options": ["3", "4", "5", "6"], "correctAnswer": "4" },
+        { "question": "Which is a decimal?", "options": ["5", "10", "0.5", "20"], "correctAnswer": "0.5" }
+      ]
+    },
+    "10": {
+      "words": [
+        { "word": "Algebra", "meaning": "Math using letters and symbols.", "example": "Solve x + 2 = 5.", "antonym": "Arithmetic" },
+        { "word": "Equation", "meaning": "A statement showing equality.", "example": "x + 3 = 7 is an equation.", "antonym": "Inequality" },
+        { "word": "Trigonometry", "meaning": "Study of triangles.", "example": "Sin and cos are used in trigonometry.", "antonym": "Arithmetic" },
+        { "word": "Quadratic", "meaning": "Equation of degree 2.", "example": "x² + 2x + 1 = 0.", "antonym": "Linear" },
+        { "word": "Graph", "meaning": "Visual representation of data.", "example": "Plot points on a graph.", "antonym": "Table" }
+      ],
+      "quizzes": [
+        { "question": "What is x in x + 2 = 5?", "options": ["2", "3", "4", "5"], "correctAnswer": "3" },
+        { "question": "Which topic studies triangles?", "options": ["Algebra", "Trigonometry", "Geometry", "Arithmetic"], "correctAnswer": "Trigonometry" },
+        { "question": "What type of equation is x² + 1 = 0?", "options": ["Linear", "Quadratic", "Cubic", "Simple"], "correctAnswer": "Quadratic" }
+      ]
+    },
+    "12": {
+      "words": [
+        { "word": "Calculus", "meaning": "Study of change and motion.", "example": "Derivatives are part of calculus.", "antonym": "Arithmetic" },
+        { "word": "Derivative", "meaning": "Rate of change of a function.", "example": "Find derivative of x².", "antonym": "Integral" },
+        { "word": "Integral", "meaning": "Area under a curve.", "example": "Integration is reverse of differentiation.", "antonym": "Derivative" },
+        { "word": "Matrix", "meaning": "Arrangement of numbers in rows and columns.", "example": "A 2x2 matrix.", "antonym": "Scalar" },
+        { "word": "Probability", "meaning": "Chance of an event.", "example": "Probability of head is 1/2.", "antonym": "Certainty" }
+      ],
+      "quizzes": [
+        { "question": "What is derivative of x²?", "options": ["x", "2x", "x²", "2"], "correctAnswer": "2x" },
+        { "question": "What is probability of head in coin toss?", "options": ["0", "1", "1/2", "2"], "correctAnswer": "1/2" },
+        { "question": "Matrix is arranged in?", "options": ["Lines", "Columns only", "Rows and columns", "Numbers"], "correctAnswer": "Rows and columns" }
+      ]
+    }
+  }
+}

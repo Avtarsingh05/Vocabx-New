@@ -1,0 +1,104 @@
+
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "xp": { "type": "number" },
+        "streak": { "type": "number" },
+        "level": { "type": "string", "enum": ["Beginner", "Intermediate", "Advanced"] },
+        "targetLanguage": { "type": "string" },
+        "dailyGoal": { "type": "number" },
+        "lastActiveDate": { "type": "string", "format": "date-time" },
+        "isAdmin": { "type": "boolean" },
+        "isBlocked": { "type": "boolean" },
+        "masteryCertified": { "type": "boolean" },
+        "learnedWords": { "type": "array" }
+      }
+    },
+    "GameScore": {
+      "title": "GameScore",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "gameType": { "type": "string" },
+        "score": { "type": "number" },
+        "accuracy": { "type": "number" },
+        "xpGained": { "type": "number" },
+        "timestamp": { "type": "string", "format": "date-time" }
+      }
+    },
+    "AISettings": {
+      "title": "AISettings",
+      "type": "object",
+      "properties": {
+        "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+        "dailyLimit": { "type": "number" },
+        "aiPrompt": { "type": "string" },
+        "chatEnabled": { "type": "boolean" },
+        "quizEnabled": { "type": "boolean" }
+      }
+    },
+    "AIUsage": {
+      "title": "AIUsage",
+      "type": "object",
+      "properties": {
+        "remainingCycles": { "type": "number" },
+        "totalLimit": { "type": "number" },
+        "lastResetDate": { "type": "string", "format": "date-time" }
+      }
+    },
+    "AppSettings": {
+      "title": "AppSettings",
+      "type": "object",
+      "properties": {
+        "xpPerQuiz": { "type": "number" },
+        "xpPerCorrect": { "type": "number" },
+        "streakEnabled": { "type": "boolean" },
+        "voiceEnabled": { "type": "boolean" },
+        "dailyChallengeEnabled": { "type": "boolean" }
+      }
+    }
+  },
+  "auth": {
+    "providers": ["password", "phone", "anonymous"]
+  },
+  "firestore": {
+    "structure": [
+      {
+        "path": "/users/{userId}",
+        "definition": {
+          "schema": { "$ref": "#/backend/entities/UserProfile" }
+        }
+      },
+      {
+        "path": "/game_scores/{scoreId}",
+        "definition": {
+          "schema": { "$ref": "#/backend/entities/GameScore" }
+        }
+      },
+      {
+        "path": "/ai_settings/global",
+        "definition": {
+          "schema": { "$ref": "#/backend/entities/AISettings" }
+        }
+      },
+      {
+        "path": "/ai_usage/global",
+        "definition": {
+          "schema": { "$ref": "#/backend/entities/AIUsage" }
+        }
+      },
+      {
+        "path": "/app_settings/global",
+        "definition": {
+          "schema": { "$ref": "#/backend/entities/AppSettings" }
+        }
+      }
+    ]
+  }
+}

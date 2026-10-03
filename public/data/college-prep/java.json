@@ -1,0 +1,77 @@
+
+{
+  "words": [
+    { "word": "Java: Classes", "meaning": "User-defined templates for creating objects.", "example": "public class Main { ... }", "antonym": "Objects" },
+    { "word": "Java: Objects", "meaning": "Instances of a class with state and behavior.", "example": "Main obj = new Main();", "antonym": "Classes" },
+    { "word": "Java: Methods", "meaning": "Blocks of code that perform a specific task.", "example": "public void run() { ... }", "antonym": "Variables" },
+    { "word": "Java: Inheritance", "meaning": "One class acquiring the properties of another.", "example": "class Car extends Vehicle { ... }", "antonym": "Composition" },
+    { "word": "Java: Interface", "meaning": "Blueprint of a class containing abstract methods.", "example": "interface Drawable { void draw(); }", "antonym": "Abstract Class" },
+    { "word": "Java: Packages", "meaning": "Namespace that organizes classes and interfaces.", "example": "package com.app.utils;", "antonym": "Classes" },
+    { "word": "Java: Exception Handling", "meaning": "Processing runtime errors using try-catch.", "example": "try { ... } catch(Exception e) { ... }", "antonym": "Errors" },
+    { "word": "Java: Collections", "meaning": "Framework for storing and manipulating groups of objects.", "example": "List<String> list = new ArrayList<>();", "antonym": "Arrays" },
+    { "word": "Java: JVM", "meaning": "Java Virtual Machine (Environment for execution).", "example": "Runs bytecode (.class)", "antonym": "JRE" },
+    { "word": "Java: JRE", "meaning": "Java Runtime Environment (JVM + Libraries).", "example": "Required to run apps.", "antonym": "JDK" },
+    { "word": "Java: JDK", "meaning": "Java Development Kit (JRE + Development Tools).", "example": "Required to develop apps.", "antonym": "JRE" },
+    { "word": "Java: Streams API", "meaning": "Functional-style operations on collections.", "example": "list.stream().filter(...).collect(...)", "antonym": "For-each loop" },
+    { "word": "Java: Garbage Collection", "meaning": "Automatic memory management process.", "example": "System.gc();", "antonym": "Manual Allocation" },
+    { "word": "Java: Static Keyword", "meaning": "Belongs to the class rather than an instance.", "example": "public static void main(...)", "antonym": "Instance variable" },
+    { "word": "Java: Final Keyword", "meaning": "Constant value or non-overridable method/class.", "example": "final int MAX = 100;", "antonym": "Mutable" },
+    { "word": "Java: Annotations", "meaning": "Metadata providing info about the code.", "example": "@Override\npublic String toString() { ... }", "antonym": "Comments" },
+    { "word": "Java: Multithreading", "meaning": "Concurrent execution of two or more threads.", "example": "Thread t = new Thread();", "antonym": "Single thread" },
+    { "word": "Java: Synchronized", "meaning": "Ensuring only one thread accesses a resource.", "example": "public synchronized void update() { ... }", "antonym": "Volatile" },
+    { "word": "Java: Enums", "meaning": "Special data type representing a group of constants.", "example": "enum Level { LOW, HIGH }", "antonym": "Integers" },
+    { "word": "Java: Generics", "meaning": "Enabling classes/methods to operate on varied types with safety.", "example": "class Box<T> { ... }", "antonym": "Object type" }
+  ],
+  "quizzes": [
+    {
+      "question": "Which keyword is used to inherit a class in Java?",
+      "options": ["implements", "extends", "inherits", "parent"],
+      "correctAnswer": "extends"
+    },
+    {
+      "question": "What is the root class of all classes in Java?",
+      "options": ["Object", "Main", "Root", "Java"],
+      "correctAnswer": "Object"
+    },
+    {
+      "question": "Which data type is used to store multiple items of the same type?",
+      "options": ["Int", "String", "Array", "Boolean"],
+      "correctAnswer": "Array"
+    },
+    {
+      "question": "What is the size of 'int' in Java?",
+      "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+      "correctAnswer": "32 bits"
+    },
+    {
+      "question": "Which access modifier allows visibility only within the class?",
+      "options": ["public", "protected", "default", "private"],
+      "correctAnswer": "private"
+    },
+    {
+      "question": "What is JVM?",
+      "options": ["Java Visual Module", "Java Virtual Machine", "Java Vital Mirror", "Java Variable Manager"],
+      "correctAnswer": "Java Virtual Machine"
+    },
+    {
+      "question": "How do you start a thread in Java?",
+      "options": ["t.begin()", "t.start()", "t.run()", "t.execute()"],
+      "correctAnswer": "t.start()"
+    },
+    {
+      "question": "Which package is imported by default?",
+      "options": ["java.util", "java.io", "java.lang", "java.net"],
+      "correctAnswer": "java.lang"
+    },
+    {
+      "question": "What is an abstract method?",
+      "options": ["Method with body", "Method without body", "Static method", "Private method"],
+      "correctAnswer": "Method without body"
+    },
+    {
+      "question": "Can you instantiate an interface?",
+      "options": ["Yes", "No", "Only if it has one method", "None of these"],
+      "correctAnswer": "No"
+    }
+  ]
+}

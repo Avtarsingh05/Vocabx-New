@@ -1,0 +1,27 @@
+
+{
+  "words": [
+    { "word": "Resilient", "meaning": "Able to withstand difficult conditions", "example": "The structure was resilient enough to survive the storm.", "antonym": "Fragile" },
+    { "word": "Pragmatic", "meaning": "Dealing with things sensibly and realistically", "example": "She took a pragmatic approach to the problem.", "antonym": "Idealistic" },
+    { "word": "Ephemeral", "meaning": "Lasting for a very short time", "example": "Fame is often ephemeral in the digital age.", "antonym": "Permanent" },
+    { "word": "Mitigate", "meaning": "To make less severe or serious", "example": "We need to mitigate the risks before proceeding.", "antonym": "Aggravate" },
+    { "word": "Ubiquitous", "meaning": "Present everywhere", "example": "Mobile phones are ubiquitous today.", "antonym": "Rare" },
+    { "word": "Eloquent", "meaning": "Fluent or persuasive in speaking or writing", "example": "He gave an eloquent speech at the graduation.", "antonym": "Inarticulate" },
+    { "word": "Benevolent", "meaning": "Well meaning and kindly", "example": "The benevolent leader donated her fortune to charity.", "antonym": "Malevolent" },
+    { "word": "Candid", "meaning": "Truthful and straightforward", "example": "His candid remarks surprised the board members.", "antonym": "Deceptive" },
+    { "word": "Diligence", "meaning": "Careful and persistent work or effort", "example": "His diligence earned him the top spot in class.", "antonym": "Laziness" },
+    { "word": "Exemplary", "meaning": "Serving as a desirable model", "example": "Her conduct was exemplary throughout the mission.", "antonym": "Poor" }
+  ],
+  "quizzes": [
+    { "question": "Which word describes someone who is kind and well-meaning?", "options": ["Benevolent", "Malevolent", "Eloquent", "Candid"], "correctAnswer": "Benevolent" },
+    { "question": "What is the antonym of 'Ephemeral'?", "options": ["Permanent", "Short", "Brief", "Quick"], "correctAnswer": "Permanent" },
+    { "question": "If something is 'Ubiquitous', where can you find it?", "options": ["Everywhere", "Nowhere", "Underground", "In space"], "correctAnswer": "Everywhere" },
+    { "question": "Which word is a synonym for 'Sensible and Realistic'?", "options": ["Pragmatic", "Idealistic", "Fanciful", "Dreamy"], "correctAnswer": "Pragmatic" },
+    { "question": "To 'Mitigate' a problem means to make it:", "options": ["Less severe", "Worse", "Bigger", "Louder"], "correctAnswer": "Less severe" },
+    { "question": "An 'Eloquent' person is good at:", "options": ["Speaking", "Running", "Sleeping", "Eating"], "correctAnswer": "Speaking" },
+    { "question": "The opposite of 'Resilient' is:", "options": ["Fragile", "Strong", "Hard", "Tough"], "correctAnswer": "Fragile" },
+    { "question": "Which word means 'Truthful and straightforward'?", "options": ["Candid", "Secretive", "Shy", "Angry"], "correctAnswer": "Candid" },
+    { "question": "Persistent effort is known as:", "options": ["Diligence", "Apathy", "Neglect", "Haste"], "correctAnswer": "Diligence" },
+    { "question": "A model behavior is often called:", "options": ["Exemplary", "Awful", "Average", "Hidden"], "correctAnswer": "Exemplary" }
+  ]
+}

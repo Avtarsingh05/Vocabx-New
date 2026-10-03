@@ -1,0 +1,15 @@
+
+{
+  "words": [
+    { "word": "LINQ", "meaning": "Language Integrated Query; a set of features that extends query capabilities to C# language syntax.", "example": "var eliteScholars = users.Where(u => u.XP > 1000).ToList();", "antonym": "Manual Loop" },
+    { "word": "Async Await", "meaning": "A pattern for non-blocking asynchronous programming in C#.", "example": "public async Task<User> GetUserAsync(string id) {\n  return await _db.Users.FindAsync(id);\n}", "antonym": "Synchronous" },
+    { "word": "Generics", "meaning": "Allows you to design classes and methods that defer the specification of one or more types until the class or method is declared.", "example": "public class Vault<T> {\n  private T _data;\n  public void Store(T item) => _data = item;\n}", "antonym": "Hard-typed" },
+    { "word": "Properties", "meaning": "Members that provide a flexible mechanism to read, write, or compute the value of a private field.", "example": "public string Name { get; set; } = \"Scholar\";", "antonym": "Fields" },
+    { "word": "Dependency Injection", "meaning": "A technique whereby one object supplies the dependencies of another object.", "example": "public class ProfileService {\n  private readonly IDatabase _db;\n  public ProfileService(IDatabase db) => _db = db;\n}", "antonym": "Tight Coupling" }
+  ],
+  "quizzes": [
+    { "question": "What does LINQ stand for?", "options": ["Linked Integer Query", "Language Integrated Query", "Logical Input Node", "Local Internal Query"], "correctAnswer": "Language Integrated Query" },
+    { "question": "Which keyword is used for asynchronous methods?", "options": ["wait", "task", "async", "thread"], "correctAnswer": "async" },
+    { "question": "What character denotes a Generic type parameter?", "options": ["()", "[]", "<T>", "{}"], "correctAnswer": "<T>" }
+  ]
+}

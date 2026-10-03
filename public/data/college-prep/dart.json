@@ -1,0 +1,15 @@
+
+{
+  "words": [
+    { "word": "Null Safety", "meaning": "A feature that prevents errors that result from unintentional access of variables set to null.", "example": "String? name; // Nullable\nString profile = name ?? \"Guest\"; // Sound null safety", "antonym": "Unsafe Nulls" },
+    { "word": "Mixins", "meaning": "A way of reusing a class's code in multiple class hierarchies.", "example": "mixin Agility { void sprint() => print('Sprinting...'); }\nclass Scholar with Agility {}", "antonym": "Inheritance" },
+    { "word": "Futures", "meaning": "An object representing a potential value or error that will be available at some time in the future.", "example": "Future<void> syncNode() async {\n  await Task.delay(Duration(seconds: 1));\n}", "antonym": "Immediate" },
+    { "word": "Streams", "meaning": "A source of asynchronous data events.", "example": "Stream<int> xpPulse() async* {\n  for (int i = 0; i < 10; i++) yield i;\n}", "antonym": "Single Value" },
+    { "word": "Extensions", "meaning": "A way to add functionality to existing libraries.", "example": "extension Capitalize on String {\n  string get elite => this.toUpperCase() + 'X';\n}", "antonym": "Subclassing" }
+  ],
+  "quizzes": [
+    { "question": "What denotes a nullable type in Dart?", "options": ["!", "@", "?", "#"], "correctAnswer": "?" },
+    { "question": "Which keyword is used to include a Mixin?", "options": ["extends", "implements", "with", "using"], "correctAnswer": "with" },
+    { "question": "What is the return type of an 'async' function?", "options": ["Task", "void", "Future", "Deferred"], "correctAnswer": "Future" }
+  ]
+}

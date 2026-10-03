@@ -1,0 +1,11 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "brand-logo",
+      "description": "VocabX Green Book Mascot with Graduation Cap",
+      "imageUrl": "https://picsum.photos/seed/vocabx-logo-v3/400/400",
+      "imageHint": "green book mascot graduation cap"
+    }
+  ]
+}

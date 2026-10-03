@@ -1,0 +1,27 @@
+{
+  "words": [
+    { "word": "ਸੱਚ", "meaning": "Truth", "example": "ਸੱਚ ਹਮੇਸ਼ਾ ਕੌੜਾ ਹੁੰਦਾ ਹੈ।", "antonym": "ਝੂਠ" },
+    { "word": "ਪਿਆਰ", "meaning": "Love", "example": "ਪਿਆਰ ਸਭ ਕੁਝ ਜਿੱਤ ਲੈਂਦਾ ਹੈ।", "antonym": "ਨਫ਼ਰਤ" },
+    { "word": "ਗਿਆਨ", "meaning": "Knowledge", "example": "ਗਿਆਨ ਹੀ ਅਸਲੀ ਤਾਕਤ ਹੈ।", "antonym": "ਅਗਿਆਨ" },
+    { "word": "ਸ਼ਾਂਤੀ", "meaning": "Peace", "example": "ਸ਼ਾਂਤੀ ਲਈ ਮਨ ਨੂੰ ਸਾਫ਼ ਰੱਖੋ।", "antonym": "ਅਸ਼ਾਂਤੀ" },
+    { "word": "ਮਿਹਨਤ", "meaning": "Hard work", "example": "ਮਿਹਨਤ ਦਾ ਫਲ ਮਿੱਠਾ ਹੁੰਦਾ ਹੈ।", "antonym": "ਆਲਸ" },
+    { "word": "ਹਿੰਮਤ", "meaning": "Courage", "example": "ਹਿੰਮਤ ਨਾਲ ਮੁਸੀਬਤ ਦਾ ਸਾਹਮਣਾ ਕਰੋ।", "antonym": "ਡਰ" },
+    { "word": "ਧੀਰਜ", "meaning": "Patience", "example": "ਧੀਰਜ ਰੱਖਣਾ ਸਿੱਖੋ।", "antonym": "ਕਾਹਲ" },
+    { "word": "ਦਇਆ", "meaning": "Compassion", "example": "ਗਰੀਬਾਂ 'ਤੇ ਦਇਆ ਕਰੋ।", "antonym": "ਬੇਰਹਿਮੀ" },
+    { "word": "ਮੁਆਫ਼ੀ", "meaning": "Forgiveness", "example": "ਮੁਆਫ਼ੀ ਮੰਗਣਾ ਵੱਡਾ ਕੰਮ ਹੈ।", "antonym": "ਬਦਲਾ" },
+    { "word": "ਨਿਮਰਤਾ", "meaning": "Humility", "example": "ਨਿਮਰਤਾ ਇਨਸਾਨ ਦਾ ਗਹਿਣਾ ਹੈ।", "antonym": "ਹੰਕਾਰ" },
+    { "word": "ਆਜ਼ਾਦੀ", "meaning": "Freedom", "example": "ਆਜ਼ਾਦੀ ਬਹੁਤ ਕੀਮਤੀ ਹੈ।", "antonym": "ਗੁਲਾਮੀ" },
+    { "word": "ਏਕਤਾ", "meaning": "Unity", "example": "ਏਕਤਾ ਵਿੱਚ ਬਹੁਤ ਬਲ ਹੈ।", "antonym": "ਫੁੱਟ" },
+    { "word": "ਇਮਾਨਦਾਰੀ", "meaning": "Honesty", "example": "ਇਮਾਨਦਾਰੀ ਨਾਲ ਕੰਮ ਕਰੋ।", "antonym": "ਬੇਈਮਾਨੀ" },
+    { "word": "ਭਰੋਸਾ", "meaning": "Faith/Trust", "example": "ਰੱਬ 'ਤੇ ਭਰੋਸਾ ਰੱਖੋ।", "antonym": "ਸ਼ੱਕ" },
+    { "word": "ਕਾਮਯਾਬੀ", "meaning": "Success", "example": "ਕਾਮਯਾਬੀ ਮਿਹਨਤ ਮੰਗਦੀ ਹੈ।", "antonym": "ਹਾਰ" },
+    { "word": "ਸਤਿਕਾਰ", "meaning": "Respect", "example": "ਮਾਪਿਆਂ ਦਾ ਸਤਿਕਾਰ ਕਰੋ।", "antonym": "ਨਿਰਾਦਰ" },
+    { "word": "ਅਕਲ", "meaning": "Wisdom/Intelligence", "example": "ਅਕਲ ਨਾਲ ਗੱਲ ਕਰੋ।", "antonym": "ਮੂਰਖਤਾ" },
+    { "word": "ਖ਼ੁਸ਼ੀ", "meaning": "Happiness", "example": "ਖ਼ੁਸ਼ੀ ਸਿਹਤ ਲਈ ਚੰਗੀ ਹੈ।", "antonym": "ਗ਼ਮ" },
+    { "word": "ਮਦਦ", "meaning": "Help", "example": "ਲੋੜਵੰਦਾਂ ਦੀ ਮਦਦ ਕਰੋ।", "antonym": "ਵਿਰੋਧ" },
+    { "word": "ਉਮੀਦ", "meaning": "Hope", "example": "ਉਮੀਦ ਕਦੇ ਨਾ ਛੱਡੋ।", "antonym": "ਨਿਰਾਸ਼ਾ" }
+  ],
+  "quizzes": [
+    { "question": "'ਸੱਚ' ਦਾ ਵਿਰੋਧੀ ਸ਼ਬਦ ਕੀ ਹੈ?", "options": ["ਝੂਠ", "ਕੂੜ", "ਗ਼ਲਤ", "ਮਾੜਾ"], "correctAnswer": "ਝੂਠ" }
+  ]
+}

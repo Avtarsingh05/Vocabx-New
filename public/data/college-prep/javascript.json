@@ -1,0 +1,26 @@
+{
+  "words": [
+    { "word": "Closures", "meaning": "Functions bundled with their lexical environment.", "example": "function outer() { const x = 10; return () => x; }", "antonym": "Global scope" },
+    { "word": "Hoisting", "meaning": "Moving declarations to the top of their scope.", "example": "console.log(x); var x = 5;", "antonym": "TDZ" },
+    { "word": "Event Loop", "meaning": "The mechanism that handles asynchronous callbacks.", "example": "setTimeout(() => console.log('async'), 0);", "antonym": "Sync execution" },
+    { "word": "Promises", "meaning": "Objects representing the completion or failure of an async operation.", "example": "fetch().then(res => res.json())", "antonym": "Callbacks" },
+    { "word": "Async/Await", "meaning": "Syntactic sugar for working with Promises.", "example": "async function start() { await call(); }", "antonym": "Then/Catch" },
+    { "word": "Arrow Functions", "meaning": "Compact syntax for writing function expressions.", "example": "const add = (a, b) => a + b;", "antonym": "Regular function" },
+    { "word": "Spread Operator", "meaning": "Expanding elements of an array or object.", "example": "const arr2 = [...arr1, 4];", "antonym": "Concat" },
+    { "word": "Destructuring", "meaning": "Unpacking values from arrays or properties from objects.", "example": "const { name } = user;", "antonym": "Manual access" },
+    { "word": "Strict Mode", "meaning": "Enforcing stricter parsing and error handling.", "example": "'use strict';", "antonym": "Sloppy mode" },
+    { "word": "Prototypal Inheritance", "meaning": "Objects inheriting properties from other objects.", "example": "Array.prototype.map = ...", "antonym": "Class inheritance" }
+  ],
+  "quizzes": [
+    { "question": "Which keyword defines a constant variable?", "options": ["const", "let", "var", "final"], "correctAnswer": "const" },
+    { "question": "What is the result of typeof null?", "options": ["object", "null", "undefined", "number"], "correctAnswer": "object" },
+    { "question": "Which method converts a JSON string to an object?", "options": ["JSON.parse()", "JSON.stringify()", "JSON.toObject()", "JSON.decode()"], "correctAnswer": "JSON.parse()" },
+    { "question": "Which operator checks for both value and type?", "options": ["===", "==", "=", "!=="], "correctAnswer": "===" },
+    { "question": "What does 'NaN' stand for?", "options": ["Not a Number", "New array Node", "Not a Null", "No access Now"], "correctAnswer": "Not a Number" },
+    { "question": "Which method removes the last element from an array?", "options": ["pop()", "push()", "shift()", "unshift()"], "correctAnswer": "pop()" },
+    { "question": "How do you declare an async function?", "options": ["async function name() {}", "function async name() {}", "await function name() {}", "async: name() {}"], "correctAnswer": "async function name() {}" },
+    { "question": "Which symbol is used for template literals?", "options": ["Backtick (`)", "Quote (')", "Double Quote (\")", "Dollar ($)"], "correctAnswer": "Backtick (`)" },
+    { "question": "What is the purpose of the 'break' statement?", "options": ["Exit a loop", "Pause a function", "Stop execution", "Restart loop"], "correctAnswer": "Exit a loop" },
+    { "question": "Which object handles the DOM in a browser?", "options": ["document", "window", "console", "global"], "correctAnswer": "document" }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "grades": {
+    "8": {
+      "words": [
+        { "word": "Democracy", "meaning": "Government by people.", "example": "India is a democracy.", "antonym": "Dictatorship" },
+        { "word": "Constitution", "meaning": "Set of laws.", "example": "India has constitution.", "antonym": "Anarchy" },
+        { "word": "Economy", "meaning": "System of money.", "example": "Strong economy grows.", "antonym": "Poverty" },
+        { "word": "History", "meaning": "Study of past.", "example": "We learn history.", "antonym": "Future" },
+        { "word": "Geography", "meaning": "Study of earth.", "example": "Mountains in geography.", "antonym": "Abstract" },
+
+        { "word": "Culture", "meaning": "Way of life.", "example": "Indian culture.", "antonym": "Chaos" },
+        { "word": "Religion", "meaning": "Belief system.", "example": "Hindu religion.", "antonym": "Atheism" },
+        { "word": "Population", "meaning": "Number of people.", "example": "India population high.", "antonym": "Vacuum" },
+        { "word": "Environment", "meaning": "Surroundings.", "example": "Protect environment.", "antonym": "Pollution" },
+        { "word": "Pollution", "meaning": "Dirty environment.", "example": "Air pollution.", "antonym": "Cleanliness" },
+
+        { "word": "Government", "meaning": "System ruling country.", "example": "Government makes laws.", "antonym": "Anarchy" },
+        { "word": "Law", "meaning": "Rules of country.", "example": "Follow law.", "antonym": "Chaos" },
+        { "word": "Election", "meaning": "Voting process.", "example": "People vote.", "antonym": "Selection" },
+        { "word": "Citizen", "meaning": "Member of country.", "example": "Indian citizen.", "antonym": "Foreigner" },
+        { "word": "Rights", "meaning": "Freedom given to people.", "example": "Right to vote.", "antonym": "Restriction" },
+
+        { "word": "Duties", "meaning": "Responsibilities.", "example": "Pay taxes.", "antonym": "Freedom" },
+        { "word": "Trade", "meaning": "Buying selling.", "example": "International trade.", "antonym": "Isolation" },
+        { "word": "Export", "meaning": "Send goods out.", "example": "India exports goods.", "antonym": "Import" },
+        { "word": "Import", "meaning": "Bring goods in.", "example": "Import oil.", "antonym": "Export" },
+        { "word": "Transport", "meaning": "Movement system.", "example": "Road transport.", "antonym": "Static" },
+
+        { "word": "Communication", "meaning": "Sharing info.", "example": "Mobile communication.", "antonym": "Silence" },
+        { "word": "Urban", "meaning": "City area.", "example": "Urban life.", "antonym": "Rural" },
+        { "word": "Rural", "meaning": "Village area.", "example": "Rural farming.", "antonym": "Urban" },
+        { "word": "Industry", "meaning": "Production system.", "example": "Steel industry.", "antonym": "Agriculture" },
+        { "word": "Agriculture", "meaning": "Farming activity.", "example": "Farm crops.", "antonym": "Industry" },
+
+        { "word": "Climate", "meaning": "Weather pattern.", "example": "Hot climate.", "antonym": "Weather" },
+        { "word": "Weather", "meaning": "Day condition.", "example": "Rainy weather.", "antonym": "Climate" },
+        { "word": "Resources", "meaning": "Useful materials.", "example": "Water resource.", "antonym": "Waste" },
+        { "word": "Minerals", "meaning": "Natural substances.", "example": "Iron mineral.", "antonym": "Organic" },
+        { "word": "Forest", "meaning": "Area of trees.", "example": "Amazon forest.", "antonym": "Desert" },
+
+        { "word": "Desert", "meaning": "Dry land.", "example": "Sahara desert.", "antonym": "Forest" },
+        { "word": "River", "meaning": "Flowing water.", "example": "Ganga river.", "antonym": "Desert" },
+        { "word": "Mountain", "meaning": "High land.", "example": "Everest mountain.", "antonym": "Plain" },
+        { "word": "Plain", "meaning": "Flat land.", "example": "Northern plains.", "antonym": "Mountain" },
+        { "word": "Plateau", "meaning": "Flat high land.", "example": "Deccan plateau.", "antonym": "Valley" },
+
+        { "word": "Valley", "meaning": "Low land between hills.", "example": "Kashmir valley.", "antonym": "Plateau" },
+        { "word": "Map", "meaning": "Representation of area.", "example": "World map.", "antonym": "Reality" },
+        { "word": "Globe", "meaning": "Model of Earth.", "example": "Use globe.", "antonym": "Flat map" },
+        { "word": "Latitude", "meaning": "Horizontal lines.", "example": "Equator line.", "antonym": "Longitude" },
+        { "word": "Longitude", "meaning": "Vertical lines.", "example": "Prime meridian.", "antonym": "Latitude" }
+      ],
+      "quizzes": [
+        { "question": "India is a?", "options": ["Kingdom", "Democracy", "Empire", "Dictatorship"], "correctAnswer": "Democracy" },
+        { "question": "Study of earth?", "options": ["History", "Geography", "Math", "Science"], "correctAnswer": "Geography" },
+        { "question": "Export means?", "options": ["Send goods", "Bring goods", "Sell local", "Buy"], "correctAnswer": "Send goods" },
+        { "question": "Rural means?", "options": ["City", "Village", "Town", "Capital"], "correctAnswer": "Village" },
+        { "question": "Forest is?", "options": ["Dry land", "Trees", "Water", "City"], "correctAnswer": "Trees" },
+        { "question": "Population means?", "options": ["Animals", "People count", "Trees", "Cars"], "correctAnswer": "People count" },
+        { "question": "Government does?", "options": ["Sleep", "Make laws", "Eat", "Run"], "correctAnswer": "Make laws" },
+        { "question": "River is?", "options": ["Land", "Water flow", "Tree", "Mountain"], "correctAnswer": "Water flow" },
+        { "question": "Map shows?", "options": ["Food", "Area", "People", "Money"], "correctAnswer": "Area" },
+        { "question": "Urban means?", "options": ["Village", "City", "Forest", "Desert"], "correctAnswer": "City" }
+      ]
+    }
+  }
+}

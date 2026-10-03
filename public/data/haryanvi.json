@@ -1,0 +1,49 @@
+{
+  "words": [
+    { "word": "बावळ", "meaning": "पागल या बेवकूफ आदमी", "example": "कती बावळ हो रया से के?", "antonym": "स्याणा", "level": "Beginner" },
+    { "word": "घणा", "meaning": "बहुत ज्यादा", "example": "घणा स्याणा मत बन", "antonym": "थोड़ा", "level": "Beginner" },
+    { "word": "कती", "meaning": "पूरी तरह", "example": "यो काम कती बढ़िया से", "antonym": "बिलकुल ना", "level": "Intermediate" },
+    { "word": "इब", "meaning": "अब", "example": "इब तू चल", "antonym": "पाछे", "level": "Beginner" },
+    { "word": "स्याणा", "meaning": "समझदार", "example": "म्हारा छोरा घणा स्याणा से", "antonym": "बावळ", "level": "Intermediate" },
+
+    { "word": "रोळा", "meaning": "झगड़ा या परेशानी", "example": "इब कोई रोळा ना चाहिए", "antonym": "शांति", "level": "Intermediate" },
+    { "word": "गात", "meaning": "शरीर", "example": "गात में दम ना से", "antonym": "मन", "level": "Advanced" },
+    { "word": "चाला", "meaning": "कमाल या हैरानी", "example": "के चाला कर दिया", "antonym": "साधारण", "level": "Advanced" },
+    { "word": "खग्गल", "meaning": "लंबा-चौड़ा आदमी", "example": "यो बंदा खग्गल से", "antonym": "नन्ना", "level": "Advanced" },
+    { "word": "खाट", "meaning": "चारपाई", "example": "खाट पे बैठ", "antonym": "कुर्सी", "level": "Beginner" },
+
+    { "word": "न्यू", "meaning": "ऐसे", "example": "न्यू कर", "antonym": "वैसे", "level": "Beginner" },
+    { "word": "वै", "meaning": "वो", "example": "वै आदमी आया", "antonym": "यो", "level": "Beginner" },
+    { "word": "यो", "meaning": "ये", "example": "यो काम कर", "antonym": "वै", "level": "Beginner" },
+    { "word": "छोरा", "meaning": "लड़का", "example": "छोरा खेल रया से", "antonym": "छोरी", "level": "Beginner" },
+    { "word": "छोरी", "meaning": "लड़की", "example": "छोरी पढ़े से", "antonym": "छोरा", "level": "Beginner" },
+
+    { "word": "तेज", "meaning": "जल्दी", "example": "घोड़ा तेज से", "antonym": "धीमा", "level": "Beginner" },
+    { "word": "धीमा", "meaning": "आहिस्ता", "example": "धीमा चल", "antonym": "तेज", "level": "Beginner" },
+    { "word": "काम", "meaning": "कार्य", "example": "काम कर", "antonym": "आराम", "level": "Beginner" },
+    { "word": "आराम", "meaning": "विश्राम", "example": "आराम कर", "antonym": "काम", "level": "Beginner" },
+    { "word": "दूध", "meaning": "सफेद पीने की चीज", "example": "दूध पी", "antonym": "पानी", "level": "Beginner" },
+    { "word": "पानी", "meaning": "पेय तरल", "example": "पानी पी", "antonym": "दूध", "level": "Beginner" }
+  ],
+
+  "quizzes": [
+    { "question": "‘बावळ’ का मतलब के से?", "options": ["समझदार", "पागल", "तेज", "धीमा"], "correctAnswer": "पागल" },
+    { "question": "‘घणा’ का उल्टा के से?", "options": ["थोड़ा", "कती", "रोळा", "स्याणा"], "correctAnswer": "थोड़ा" },
+    { "question": "‘इब’ का मतलब के से?", "options": ["अब", "पहले", "बाद में", "कभी"], "correctAnswer": "अब" },
+    { "question": "‘स्याणा’ का मतलब के से?", "options": ["बेवकूफ", "समझदार", "धीमा", "कमजोर"], "correctAnswer": "समझदार" },
+    { "question": "‘रोळा’ का मतलब के से?", "options": ["शांति", "झगड़ा", "खेल", "काम"], "correctAnswer": "झगड़ा" },
+
+    { "question": "‘खाट’ के से?", "options": ["कुर्सी", "चारपाई", "टेबल", "बिस्तर"], "correctAnswer": "चारपाई" },
+    { "question": "‘छोरा’ का मतलब?", "options": ["लड़की", "लड़का", "बच्चा", "आदमी"], "correctAnswer": "लड़का" },
+    { "question": "‘छोरी’ का मतलब?", "options": ["लड़की", "लड़का", "औरत", "बच्चा"], "correctAnswer": "लड़की" },
+
+    { "question": "‘तेज’ का उल्टा?", "options": ["धीमा", "तेज", "रुक", "भाग"], "correctAnswer": "धीमा" },
+    { "question": "‘काम’ का उल्टा?", "options": ["आराम", "खेल", "भाग", "रुक"], "correctAnswer": "आराम" },
+
+    { "question": "‘दूध’ के से?", "options": ["पानी", "सफेद पेय", "रस", "चाय"], "correctAnswer": "सफेद पेय" },
+    { "question": "‘पानी’ के से?", "options": ["तरल पेय", "दूध", "चाय", "रस"], "correctAnswer": "तरल पेय" },
+
+    { "question": "‘तेज’ का मतलब?", "options": ["जल्दी", "धीमा", "रुक", "बैठ"], "correctAnswer": "जल्दी" },
+    { "question": "‘धीमा’ का मतलब?", "options": ["आहिस्ता", "तेज", "भाग", "कूद"], "correctAnswer": "आहिस्ता" }
+  ]
+}

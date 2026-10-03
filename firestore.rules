@@ -1,0 +1,77 @@
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // --- Helper Functions ---
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && 
+             exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // --- Banners (Public Visual Signals) ---
+    match /banners/{bannerId} {
+      // Explicitly allow both individual gets and collection listing
+      allow get, list: if true;
+      allow write: if isAdmin();
+    }
+
+    // --- User Rules ---
+    match /users {
+      // Allow authenticated scholars to list users for the leaderboard
+      allow list: if isSignedIn();
+      
+      match /{userId} {
+        allow get: if isSignedIn();
+        allow create: if isOwner(userId);
+        allow update: if isOwner(userId) || isAdmin();
+        allow delete: if isAdmin();
+      }
+    }
+
+    // --- Game Scores ---
+    match /game_scores/{scoreId} {
+      allow create: if isSignedIn();
+      allow read: if isSignedIn();
+    }
+
+    // --- Admin & Global Settings Rules ---
+    match /ai_settings/{settingId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    match /ai_usage/{usageId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    match /app_settings/{settingId} {
+      // Global app logic is readable to calibrate UI
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /admin_logs/{logId} {
+      allow read: if isAdmin();
+      allow create: if isSignedIn();
+      allow update, delete: if false;
+    }
+
+    match /certificationRequests/{requestId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn();
+      allow update, delete: if isAdmin();
+    }
+  }
+}
